@@ -37,4 +37,4 @@ def daily_commit(start_date, end_date):
 
 
 if __name__ == '__main__':
-    daily_commit(datetime.date(2021, 2, 2), datetime.date(2021, 2, 4))
+    daily_commit(datetime.date(2021, 2, 17), datetime.date(2021, 2, 20))
