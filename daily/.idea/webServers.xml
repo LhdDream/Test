@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="54c6ab94-e396-4bf0-afc9-c0d6932cb34e" name="tencent_server" url="http://121.4.158.189">
+        <fileTransfer rootFolder="/root/data/go" accessType="SFTP" host="121.4.158.189" port="22" sshConfigId="02e69d73-3757-4ea7-a21e-290e771e8c4d" sshConfig="root@121.4.158.189:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package callback;
+
+message GetRequest {
+    string groupId = 1;
+    string key = 2;
+}
+
+message Response {
+    string value  = 1;
+}
+
+message SetRequest {
+    string groupId = 1;
+    string key = 2;
+    string value = 3;
+}
+
+
+service CallBack {
+    rpc Get(GetRequest) returns (Response);
+    rpc Set(SetRequest) returns (Response);
+}
